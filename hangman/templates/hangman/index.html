@@ -10,7 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     
     <link rel="stylesheet" type="text/css" href="{% static 'hangman/stylesheet.css' %}">
-    <script type="text/javascript" src="{% static 'hangman/index.js' %}"></script>
+    
     
 </head>
 <body>
@@ -64,9 +64,9 @@
 
 </div>
 <button id = "restart">Restart</button>
-<script src = "index.js">
+<script type="text/javascript" src="{% static 'hangman/index.js' %}"></script>
         
-</script>
+
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 </body>
 
